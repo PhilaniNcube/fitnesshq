@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Vision = () => {
+const Vision = ({ show }) => {
   return (
     <div className="hidden lg:block bg-yellow-400 p-4 w-[350px] md:h-[50%] text-blue-600 absolute top-[28%]">
       <h3 className="font-bold text-lg">Our Vision & Mission</h3>

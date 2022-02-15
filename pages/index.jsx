@@ -10,8 +10,8 @@ export default function Home() {
 
   return (
     <div className="bg-blue-800 h-screen relative">
-      <div className="hidden md:block md:absolute min-w-1/2 top-0 right-0 h-[100vh] bg-white pointer-events-none">
-        {show && <Vision />}
+      <div className="hidden md:block md:absolute min-w-1/2 top-0 right-0 h-[100vh] bg-white pointer-events-none overflow-hidden transition-all duration-300">
+        {show && <Vision show={show} />}
         <img
           src="/images/rack.webp"
           alt=""
