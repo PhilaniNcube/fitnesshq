@@ -21,7 +21,7 @@ export default function Home() {
         <div className="hidden md:block md:absolute min-w-1/2 top-0 right-0 h-[100vh] bg-white pointer-events-none overflow-hidden transition-all duration-300">
           {show && <Vision show={show} />}
           <img
-            src="/images/rack.webp"
+            src="/images/rack.png"
             alt=""
             className="h-[100vh] w-[45vw] object-cover z-30"
           />
