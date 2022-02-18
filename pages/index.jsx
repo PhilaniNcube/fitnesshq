@@ -88,7 +88,7 @@ export default function Home() {
           <h2 className="text-yellow-400 font-extrabold text-2xl md:text-4xl">
             Contact Us
           </h2>
-          <ul className="w-full md:pl-24 mt-6 flex flex-col space-y-4">
+          <ul className="w-full md:w-1/2 md:pl-24 mt-6 justify-self-center flex flex-col space-y-4">
             <li className="flex justify-start items-center text-md text-white space-x-3">
               <span className="h-8 w-8 rounded-full bg-blue-400 flex items-center justify-center">
                 <BsPhone />
