@@ -90,19 +90,19 @@ export default function Home() {
           </h2>
           <ul className="w-full md:w-1/2 md:pl-24 mt-6 justify-self-center flex flex-col space-y-4">
             <li className="flex justify-start items-center text-md text-white space-x-3">
-              <span className="h-8 w-8 rounded-full bg-blue-400 flex items-center justify-center">
+              <span className=" text-2xl p-2 rounded-full bg-blue-400 flex items-center justify-center">
                 <BsPhone />
               </span>{' '}
               <p>084 023 0071</p>
             </li>
             <li className="flex justify-start items-center text-md text-white space-x-3">
-              <span className="h-8 w-8 rounded-full bg-blue-400 flex items-center justify-center">
+              <span className=" text-2xl p-2 rounded-full bg-blue-400 flex items-center justify-center">
                 <BsFillEnvelopeOpenFill />
               </span>{' '}
               <p>info@fitnesshq.co.za</p>
             </li>
             <li className="flex justify-start items-center text-md text-white space-x-3">
-              <span className="h-8 w-8 rounded-full bg-blue-400 flex items-center justify-center">
+              <span className=" text-2xl p-2 rounded-full bg-blue-400 flex items-center justify-center">
                 <BsFillGeoAltFill />
               </span>{' '}
               <p>4 First Avenue , Windvogel, Port Elizabeth, 6001</p>
