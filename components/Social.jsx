@@ -9,8 +9,7 @@ import {
 const links = [
   { icon: <FaFacebookF />, href: 'https://www.facebook.com' },
   { icon: <FaInstagram />, href: 'https://www.instagram.com/abrahams6237/' },
-  { icon: <FaWhatsapp />, href: 'https://www.whatsapp.com' },
-  { icon: <FaTwitter />, href: 'https://twitter.com' },
+
 ];
 
 const Social = () => {
